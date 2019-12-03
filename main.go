@@ -16,6 +16,12 @@ func main() {
 	if err != nil {
 		fmt.Println("Failed to write to file")
 	}
+
+	var b []byte
+	_, err = f.Read(b)
+	if err != nil {
+		fmt.Println("Error")
+	}
 }
 
 func anotherFunc() {
