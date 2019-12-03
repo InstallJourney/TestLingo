@@ -17,3 +17,8 @@ func main() {
 		fmt.Println("Failed to write to file")
 	}
 }
+
+func anotherFunc() {
+
+	fmt.Println("This is a funciton")
+}
